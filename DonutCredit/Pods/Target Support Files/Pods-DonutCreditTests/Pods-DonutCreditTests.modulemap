@@ -1,0 +1,6 @@
+framework module Pods_DonutCreditTests {
+  umbrella header "Pods-DonutCreditTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
