@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E4C56F023A2598D00F1B300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C56EF23A2598D00F1B300 /* AppDelegate.swift */; };
+		6E4C56F223A2598D00F1B300 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C56F123A2598D00F1B300 /* SceneDelegate.swift */; };
+		6E4C56F423A2598D00F1B300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C56F323A2598D00F1B300 /* ViewController.swift */; };
+		6E4C56F923A2598F00F1B300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C56F823A2598F00F1B300 /* Assets.xcassets */; };
+		6E4C56FC23A2598F00F1B300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C56FA23A2598F00F1B300 /* LaunchScreen.storyboard */; };
+		6E4C570723A2599000F1B300 /* ProcessViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C570623A2599000F1B300 /* ProcessViewModelTests.swift */; };
+		6E4C572023A2AD3E00F1B300 /* CreditScoreSrevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C571F23A2AD3E00F1B300 /* CreditScoreSrevice.swift */; };
+		6E4C572223A2AD5500F1B300 /* CreditScoreClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C572123A2AD5500F1B300 /* CreditScoreClient.swift */; };
+		6E4C572423A2AE0200F1B300 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C572323A2AE0200F1B300 /* RoundedView.swift */; };
+		6E4C572623A2AE1700F1B300 /* ProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C572523A2AE1700F1B300 /* ProcessView.swift */; };
+		6E4C572823A2AE6000F1B300 /* ProcessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C572723A2AE6000F1B300 /* ProcessViewModel.swift */; };
+		6E4C572A23A2AE7600F1B300 /* CreditReportInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C572923A2AE7600F1B300 /* CreditReportInfo.swift */; };
+		6E4C572C23A2B71000F1B300 /* CreditScoreClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C572B23A2B71000F1B300 /* CreditScoreClientTests.swift */; };
+		6E4C572E23A2BAC100F1B300 /* amazonaws.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C572D23A2BAC100F1B300 /* amazonaws.json */; };
+		B6313A35F8AE92CA0608C4FA /* Pods_DonutCredit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEA600BD2D638A88A46D59F /* Pods_DonutCredit.framework */; };
+		BF2C41BD4EE7343A1CDDA2C3 /* Pods_DonutCreditTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805408951236380BF70E2E0B /* Pods_DonutCreditTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E4C570323A2599000F1B300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4C56E423A2598D00F1B300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E4C56EB23A2598D00F1B300;
+			remoteInfo = DonutCredit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0167051BE7E29E5D8A6AF0DA /* Pods-DonutCreditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutCreditTests.release.xcconfig"; path = "Target Support Files/Pods-DonutCreditTests/Pods-DonutCreditTests.release.xcconfig"; sourceTree = "<group>"; };
+		258975DB4D2AC2CEC87DA240 /* Pods-DonutCredit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutCredit.release.xcconfig"; path = "Target Support Files/Pods-DonutCredit/Pods-DonutCredit.release.xcconfig"; sourceTree = "<group>"; };
+		3CEA600BD2D638A88A46D59F /* Pods_DonutCredit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutCredit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6507383D6927F41C21D73AB6 /* Pods-DonutCredit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutCredit.debug.xcconfig"; path = "Target Support Files/Pods-DonutCredit/Pods-DonutCredit.debug.xcconfig"; sourceTree = "<group>"; };
+		6E4C56EC23A2598D00F1B300 /* DonutCredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutCredit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4C56EF23A2598D00F1B300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4C56F123A2598D00F1B300 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E4C56F323A2598D00F1B300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E4C56F823A2598F00F1B300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4C56FB23A2598F00F1B300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E4C56FD23A2598F00F1B300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4C570223A2599000F1B300 /* DonutCreditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutCreditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4C570623A2599000F1B300 /* ProcessViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessViewModelTests.swift; sourceTree = "<group>"; };
+		6E4C570823A2599000F1B300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4C571F23A2AD3E00F1B300 /* CreditScoreSrevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreSrevice.swift; sourceTree = "<group>"; };
+		6E4C572123A2AD5500F1B300 /* CreditScoreClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreClient.swift; sourceTree = "<group>"; };
+		6E4C572323A2AE0200F1B300 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		6E4C572523A2AE1700F1B300 /* ProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessView.swift; sourceTree = "<group>"; };
+		6E4C572723A2AE6000F1B300 /* ProcessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessViewModel.swift; sourceTree = "<group>"; };
+		6E4C572923A2AE7600F1B300 /* CreditReportInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportInfo.swift; sourceTree = "<group>"; };
+		6E4C572B23A2B71000F1B300 /* CreditScoreClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreClientTests.swift; sourceTree = "<group>"; };
+		6E4C572D23A2BAC100F1B300 /* amazonaws.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amazonaws.json; sourceTree = "<group>"; };
+		805408951236380BF70E2E0B /* Pods_DonutCreditTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutCreditTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25E3C9FED41A0A5D93BFC10 /* Pods-DonutCreditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutCreditTests.debug.xcconfig"; path = "Target Support Files/Pods-DonutCreditTests/Pods-DonutCreditTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E4C56E923A2598D00F1B300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6313A35F8AE92CA0608C4FA /* Pods_DonutCredit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C56FF23A2599000F1B300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2C41BD4EE7343A1CDDA2C3 /* Pods_DonutCreditTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E4C56E323A2598D00F1B300 = {
+			isa = PBXGroup;
+			children = (
+				6E4C56EE23A2598D00F1B300 /* DonutCredit */,
+				6E4C570523A2599000F1B300 /* DonutCreditTests */,
+				6E4C56ED23A2598D00F1B300 /* Products */,
+				A5F0E7E0247C1010CAF1E62D /* Pods */,
+				8F58710B61B5EAB8E92AA75F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E4C56ED23A2598D00F1B300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C56EC23A2598D00F1B300 /* DonutCredit.app */,
+				6E4C570223A2599000F1B300 /* DonutCreditTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E4C56EE23A2598D00F1B300 /* DonutCredit */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C571723A25BE400F1B300 /* Control */,
+				6E4C571523A25BC900F1B300 /* Presentation */,
+				6E4C571323A25BB700F1B300 /* Network */,
+				6E4C571123A25BA600F1B300 /* Domain */,
+				6E4C56FD23A2598F00F1B300 /* Info.plist */,
+			);
+			path = DonutCredit;
+			sourceTree = "<group>";
+		};
+		6E4C570523A2599000F1B300 /* DonutCreditTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C572D23A2BAC100F1B300 /* amazonaws.json */,
+				6E4C570623A2599000F1B300 /* ProcessViewModelTests.swift */,
+				6E4C572B23A2B71000F1B300 /* CreditScoreClientTests.swift */,
+				6E4C570823A2599000F1B300 /* Info.plist */,
+			);
+			path = DonutCreditTests;
+			sourceTree = "<group>";
+		};
+		6E4C571123A25BA600F1B300 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C571223A25BAF00F1B300 /* Services */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6E4C571223A25BAF00F1B300 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C571F23A2AD3E00F1B300 /* CreditScoreSrevice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6E4C571323A25BB700F1B300 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C571423A25BC000F1B300 /* Clients */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6E4C571423A25BC000F1B300 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C572123A2AD5500F1B300 /* CreditScoreClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		6E4C571523A25BC900F1B300 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C56F823A2598F00F1B300 /* Assets.xcassets */,
+				6E4C56FA23A2598F00F1B300 /* LaunchScreen.storyboard */,
+				6E4C571623A25BD300F1B300 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6E4C571623A25BD300F1B300 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C572323A2AE0200F1B300 /* RoundedView.swift */,
+				6E4C572523A2AE1700F1B300 /* ProcessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E4C571723A25BE400F1B300 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C56EF23A2598D00F1B300 /* AppDelegate.swift */,
+				6E4C56F123A2598D00F1B300 /* SceneDelegate.swift */,
+				6E4C571A23A25BFB00F1B300 /* Models */,
+				6E4C571923A25BF100F1B300 /* ViewModels */,
+				6E4C571823A25BEA00F1B300 /* ViewControllers */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		6E4C571823A25BEA00F1B300 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C56F323A2598D00F1B300 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6E4C571923A25BF100F1B300 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C572723A2AE6000F1B300 /* ProcessViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6E4C571A23A25BFB00F1B300 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C572923A2AE7600F1B300 /* CreditReportInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F58710B61B5EAB8E92AA75F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CEA600BD2D638A88A46D59F /* Pods_DonutCredit.framework */,
+				805408951236380BF70E2E0B /* Pods_DonutCreditTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5F0E7E0247C1010CAF1E62D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6507383D6927F41C21D73AB6 /* Pods-DonutCredit.debug.xcconfig */,
+				258975DB4D2AC2CEC87DA240 /* Pods-DonutCredit.release.xcconfig */,
+				A25E3C9FED41A0A5D93BFC10 /* Pods-DonutCreditTests.debug.xcconfig */,
+				0167051BE7E29E5D8A6AF0DA /* Pods-DonutCreditTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E4C56EB23A2598D00F1B300 /* DonutCredit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4C570B23A2599000F1B300 /* Build configuration list for PBXNativeTarget "DonutCredit" */;
+			buildPhases = (
+				8CAD2A3AF8E1DE0DB89C4A6F /* [CP] Check Pods Manifest.lock */,
+				6E4C56E823A2598D00F1B300 /* Sources */,
+				6E4C56E923A2598D00F1B300 /* Frameworks */,
+				6E4C56EA23A2598D00F1B300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonutCredit;
+			productName = DonutCredit;
+			productReference = 6E4C56EC23A2598D00F1B300 /* DonutCredit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E4C570123A2599000F1B300 /* DonutCreditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4C570E23A2599000F1B300 /* Build configuration list for PBXNativeTarget "DonutCreditTests" */;
+			buildPhases = (
+				07D24A9291ADE18F0FD03A24 /* [CP] Check Pods Manifest.lock */,
+				6E4C56FE23A2599000F1B300 /* Sources */,
+				6E4C56FF23A2599000F1B300 /* Frameworks */,
+				6E4C570023A2599000F1B300 /* Resources */,
+				C0290B3648D699B21103BE6F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E4C570423A2599000F1B300 /* PBXTargetDependency */,
+			);
+			name = DonutCreditTests;
+			productName = DonutCreditTests;
+			productReference = 6E4C570223A2599000F1B300 /* DonutCreditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E4C56E423A2598D00F1B300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Lyu-Jhen Lai";
+				TargetAttributes = {
+					6E4C56EB23A2598D00F1B300 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					6E4C570123A2599000F1B300 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 6E4C56EB23A2598D00F1B300;
+					};
+				};
+			};
+			buildConfigurationList = 6E4C56E723A2598D00F1B300 /* Build configuration list for PBXProject "DonutCredit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E4C56E323A2598D00F1B300;
+			productRefGroup = 6E4C56ED23A2598D00F1B300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E4C56EB23A2598D00F1B300 /* DonutCredit */,
+				6E4C570123A2599000F1B300 /* DonutCreditTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E4C56EA23A2598D00F1B300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C56FC23A2598F00F1B300 /* LaunchScreen.storyboard in Resources */,
+				6E4C56F923A2598F00F1B300 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C570023A2599000F1B300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C572E23A2BAC100F1B300 /* amazonaws.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D24A9291ADE18F0FD03A24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonutCreditTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CAD2A3AF8E1DE0DB89C4A6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonutCredit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0290B3648D699B21103BE6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutCreditTests/Pods-DonutCreditTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutCreditTests/Pods-DonutCreditTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DonutCreditTests/Pods-DonutCreditTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E4C56E823A2598D00F1B300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C56F423A2598D00F1B300 /* ViewController.swift in Sources */,
+				6E4C572223A2AD5500F1B300 /* CreditScoreClient.swift in Sources */,
+				6E4C572423A2AE0200F1B300 /* RoundedView.swift in Sources */,
+				6E4C572A23A2AE7600F1B300 /* CreditReportInfo.swift in Sources */,
+				6E4C572623A2AE1700F1B300 /* ProcessView.swift in Sources */,
+				6E4C572823A2AE6000F1B300 /* ProcessViewModel.swift in Sources */,
+				6E4C56F023A2598D00F1B300 /* AppDelegate.swift in Sources */,
+				6E4C56F223A2598D00F1B300 /* SceneDelegate.swift in Sources */,
+				6E4C572023A2AD3E00F1B300 /* CreditScoreSrevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C56FE23A2599000F1B300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C572C23A2B71000F1B300 /* CreditScoreClientTests.swift in Sources */,
+				6E4C570723A2599000F1B300 /* ProcessViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E4C570423A2599000F1B300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E4C56EB23A2598D00F1B300 /* DonutCredit */;
+			targetProxy = 6E4C570323A2599000F1B300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E4C56FA23A2598F00F1B300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4C56FB23A2598F00F1B300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E4C570923A2599000F1B300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E4C570A23A2599000F1B300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E4C570C23A2599000F1B300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6507383D6927F41C21D73AB6 /* Pods-DonutCredit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYPKJ9XFLM;
+				INFOPLIST_FILE = DonutCredit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alice.DonutCredit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4C570D23A2599000F1B300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258975DB4D2AC2CEC87DA240 /* Pods-DonutCredit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYPKJ9XFLM;
+				INFOPLIST_FILE = DonutCredit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alice.DonutCredit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E4C570F23A2599000F1B300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25E3C9FED41A0A5D93BFC10 /* Pods-DonutCreditTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYPKJ9XFLM;
+				INFOPLIST_FILE = DonutCreditTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alice.DonutCreditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonutCredit.app/DonutCredit";
+			};
+			name = Debug;
+		};
+		6E4C571023A2599000F1B300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0167051BE7E29E5D8A6AF0DA /* Pods-DonutCreditTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYPKJ9XFLM;
+				INFOPLIST_FILE = DonutCreditTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alice.DonutCreditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonutCredit.app/DonutCredit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E4C56E723A2598D00F1B300 /* Build configuration list for PBXProject "DonutCredit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4C570923A2599000F1B300 /* Debug */,
+				6E4C570A23A2599000F1B300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4C570B23A2599000F1B300 /* Build configuration list for PBXNativeTarget "DonutCredit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4C570C23A2599000F1B300 /* Debug */,
+				6E4C570D23A2599000F1B300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4C570E23A2599000F1B300 /* Build configuration list for PBXNativeTarget "DonutCreditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4C570F23A2599000F1B300 /* Debug */,
+				6E4C571023A2599000F1B300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E4C56E423A2598D00F1B300 /* Project object */;
+}
